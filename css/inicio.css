@@ -1,0 +1,398 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    font-family: "Inter", sans-serif;
+    height: auto;
+    margin: 0;
+}
+
+body{
+    width: 1200px;
+    margin: auto;
+ 
+}
+
+h1{
+    margin-top: 20px;
+    color: rgb(0, 0, 90);
+    font-weight: bolder;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.novidades_titulo{
+    font-size: 40px;
+    margin-top: 70px;
+}
+
+.novidades{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 450px;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    background-color:rgb(220, 239, 255);
+}
+
+.novidades_card{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+
+.novidades-img{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color:rgb(220, 239, 255);
+}
+
+.novidades-img-moldura{
+    width: 60%;
+    height: 90%;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: rgb(24, 24, 24);
+    border: 3px rgb(0, 0, 90) solid;
+}
+
+.novidades-img-moldura img{
+    width: 100%;
+    /*height: 100%;*/
+
+}
+
+.novidades-text{
+    /*background-color: rgb(5, 5, 82);*/
+    background-color: rgb(220, 239, 255);
+    font-size: 20px;
+    color: rgb(0, 0, 90);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    width: 100%;
+    height: 30%;
+}
+
+.novidades-text p{
+    width: 60%;
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px;
+    color: rgb(0, 0, 90);
+}
+
+.novidades-text h2{
+    width: 60%;
+    color: rgb(0, 0, 90);
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.novidades-text h3{
+    width: 60%;
+    color: rgb(0, 0, 90);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/*Estação de carregamento*/
+
+.novidades_estacao-pai{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.novidades_estacao{
+    background-color: rgb(220, 239, 255);
+    display: flex;
+    width: 60%;
+    height: 80%;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.novidades_estacao-img{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.novidades_estacao-img-moldura{
+    height: calc(100% - 30px);
+    display: flex;
+    overflow: hidden;
+}
+
+.novidades_estacao-img-moldura img{
+    width: 100%;
+
+}
+
+.novidades_estacao-text{
+
+    font-size: 20px;
+    color: rgb(5, 5, 82);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    margin-left: 50px;
+}
+
+.novidades_estacao-text p{
+    text-align: left;
+    line-height: 25px;
+    color: rgb(5, 5, 82);
+}
+
+.novidades_estacao-text h2{
+    text-align: left;
+    margin-bottom: 30px;
+    color: rgb(5, 5, 82);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.novidades_estacao-text h3{
+    text-align: left;
+    color: rgb(5, 5, 82);
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.carregador_banner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(5, 5, 82);
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.carregador_banner-img{
+    width: 20%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carregador_banner-img img{
+    width: 80%;
+}
+
+.carregador_banner-texto{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.carregador_banner-texto a{
+    color: rgb(5, 5, 82);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: rgb(220, 239, 255);
+    margin-top: 15px;
+}
+
+.carregador_banner-texto h1{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+.carregador_banner-texto p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.inicio_galeria{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio_galeria-cima{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.inicio_galeria-baixo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    justify-content: center;
+    background-color: white;
+}
+
+.inicio_galeria-img{
+    display: flex;
+    overflow: hidden;
+    width: 40%;
+    height: 90%;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid white;
+}
+
+.inicio_galeria-img img{
+    width: 100%;
+}
+
+.chamada{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.chamada_logo{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.chamada_logo-moldura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border: white 3px solid;
+    border-radius: 10px;
+}
+
+.chamada_logo-moldura img{
+    width: 200px;
+}
+
+.chamada_texto{
+    display: flex;
+    width: 50%;
+}
+
+.chamada_texto-moldura{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.chamada_texto-moldura h1{
+    color: rgb(5, 5, 82);
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.chamada_texto-moldura h2{
+    color: rgb(5, 5, 82);
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.chamada_texto-moldura p{
+    color: rgb(5, 5, 82);
+    line-height: 30px;
+
+}

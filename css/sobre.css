@@ -1,0 +1,199 @@
+
+
+
+*{
+    font-family: "Inter", sans-serif;
+    height: auto;
+    margin: 0;
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: rgb(5, 5, 82);
+}
+
+.inicio {
+    color: #000000;
+    background-color: rgb(220, 239, 255);
+    text-align: left;
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    margin: 20px 0px 0px 0px;
+}
+
+
+.p1 {
+    margin: auto;
+    margin: 10px 20px 30px 40px;
+}
+
+.p1 h1{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(5, 5, 82);
+}
+
+.p1 p{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(5, 5, 82);
+}
+
+.img1 {
+    width: 163px;
+    right: 200px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.informacoes {
+    color: rgb(5, 5, 82);
+    text-align: left;
+    padding: 10px;
+    margin: 10px 20px 30px 40px;
+   
+}
+
+.informacoes h2{
+    font-size: 30px;
+}
+
+.endereco {
+    display: flex;
+    justify-content: space-between;
+}
+
+.endereco-titulo ::before{
+
+    content: ' ';
+    color: rgb(5, 5, 82);
+}
+
+.maps-sobre{
+    text-align: right;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.maps-sobre img{
+    width: 400px;
+
+}
+
+.endereco-titulo h3{
+    font-size: 25px;
+}
+
+.endereco-comp{
+    font-size: 20px;
+}
+
+.telefone {
+    color: rgb(5, 5, 82);
+    text-align: left;
+    padding: 1px;
+    margin: -100px 0px 10px 0px;
+}
+
+.telefone-titulo{
+    font-size: 25px;
+}
+
+.telefone-num{
+    font-size: 20px;
+}
+
+.telefone-titulo::before{
+    content: '✆ ';
+    color: rgb(5, 5, 82);
+    padding: 5px;
+
+}
+
+.avaliacoes-titulo h2{
+    font-size: 30px;
+}
+
+.rebeca{
+background-color: rgb(220, 239, 255);
+color: rgb(5, 5, 82);
+border-radius: 100%;
+width: 180px;
+padding: 40px;
+text-align: center;
+}
+
+.rebeca::after {
+    content: '★★★★★ ';
+}
+
+.ana{
+    background-color: rgb(220, 239, 255);
+    color: rgb(5, 5, 82);
+    border-radius: 100%;
+    width: 180px;
+    padding: 40px;
+    text-align: center;
+    }
+    
+    .ana::after {
+        content: '★★★★★ ';
+    }
+
+    .jorge{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(220, 239, 255);
+        color: rgb(5, 5, 82);
+        border-radius: 100%;
+        width: 180px;
+        padding: 40px;
+        text-align: center;
+
+        }
+        
+        .jorge::after {
+
+            content: '★★★★★ ';
+        }
+
+        .jorge img{
+            margin-bottom: 40px;
+        }
+
+        .avaliacoes{
+            display: flex;
+            padding: 20px;
+            margin: 10px;
+            justify-content: space-evenly;
+        }
+
+        .avaliacoes-titulo{
+            display: block;
+            text-align: center;
+
+        }
+
+        .avaliacoes-titulo h2{
+            margin-top: 60px;
+            color: rgb(5, 5, 82);
+        }
+
+    .informacoes h2{
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        color: rgb(5, 5, 82);
+    }
